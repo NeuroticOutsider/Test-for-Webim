@@ -1,0 +1,11 @@
+node_modules
+maket
+libs
+sass
+fonts
+img
+js
+non_optimized_images
+gulpfile.js
+package-lock.json
+package.json
