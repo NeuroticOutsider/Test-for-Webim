@@ -2949,7 +2949,7 @@ body {
   .section__title {
     font-size: 30px;
     text-align: left;
-    line-height: 50px;
+    line-height: 20px;
     font-family: 'ubuntubold', sans-serif;
     margin: 0;
     margin-bottom: 25px;
@@ -3006,7 +3006,8 @@ header, footer, section {
 @media (max-width: 768px) {
   .section__title {
     font-size: 48px;
-    margin-bottom: 66px; }
+    margin-bottom: 66px;
+    line-height: 50px; }
   .button {
     font-size: 24px;
     letter-spacing: 2.75px;
@@ -3281,7 +3282,7 @@ header, footer, section {
   margin-left: 10px;
   margin-top: 10px;
   text-decoration: underline;
-  color: #2cd3b8;
+  color: #0da088;
   font-size: 18px; }
 
 @media (max-width: 768px) {
@@ -3293,3 +3294,44 @@ header, footer, section {
 @media (max-width: 576px) {
   .simple__text p {
     font-size: 18px; } }
+
+.listing__title {
+  margin-bottom: 60px; }
+
+.listing__item {
+  margin-bottom: 50px;
+  padding-left: 40px;
+  position: relative; }
+  .listing__item:last-child {
+    margin-bottom: 0; }
+  .listing__item:after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #3b4269; }
+
+.listing__link {
+  display: block;
+  text-decoration: underline;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #0da088; }
+
+.dashboard .listing__title {
+  margin-bottom: 30px;
+  line-height: 35px; }
+
+.dashboard__subtitle {
+  display: block;
+  margin-bottom: 70px; }
+
+.dashboard .licting__wrap {
+  max-width: 800px; }
+
+@media (max-width: 768px) {
+  .dashboard .listing__title {
+    line-height: 50px; } }
