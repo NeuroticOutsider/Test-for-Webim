@@ -2949,6 +2949,7 @@ body {
   .section__title {
     font-size: 30px;
     text-align: left;
+    line-height: 50px;
     font-family: 'ubuntubold', sans-serif;
     margin: 0;
     margin-bottom: 25px;
@@ -3001,6 +3002,26 @@ header, footer, section {
 
 .bg-color {
   background-color: #eff4f4; }
+
+@media (max-width: 768px) {
+  .section__title {
+    font-size: 48px;
+    margin-bottom: 66px; }
+  .button {
+    font-size: 24px;
+    letter-spacing: 2.75px;
+    border-radius: 45px;
+    padding: 36px; } }
+
+@media (max-width: 576px) {
+  .section__title {
+    font-size: 36px;
+    margin-bottom: 20px; }
+  .button {
+    font-size: 16px;
+    letter-spacing: .75px;
+    border-radius: 30px;
+    padding: 22px 0; } }
 
 .navbar {
   background: #fff url("../img/head_gradient_bg.png") no-repeat left center;
@@ -3179,29 +3200,96 @@ header, footer, section {
     .navbar__logo a {
       width: 180px; } }
 
-.setup__wrap {
+.try__wrap {
   max-width: 665px;
   padding-left: 10px; }
 
-.setup__title {
+.try__title {
   font-size: 36px;
   letter-spacing: 0.9px;
   margin-top: 45px;
   line-height: 50px; }
 
-.setup__text {
+.try__text {
   margin-bottom: 60px; }
-  .setup__text p {
+  .try__text p {
     margin: 0;
     letter-spacing: 0.4px; }
 
-.setup__buttons .button {
+.try__buttons .button {
   margin-right: 20px; }
 
 @media (max-width: 768px) {
-  .setup__buttons .button {
+  .try__title {
+    font-size: 48px;
+    margin-bottom: 66px; }
+  .try__text p {
+    font-size: 26px;
+    line-height: 36px; }
+  .try__buttons .button {
     width: 100%;
     margin-right: 0;
     margin-bottom: 30px; }
-    .setup__buttons .button:last-child {
+    .try__buttons .button:last-child {
       margin-bottom: 0; } }
+
+@media (max-width: 576px) {
+  .try__title {
+    font-size: 36px;
+    margin-bottom: 20px; }
+  .try__text p {
+    font-size: 20px;
+    line-height: 32px; } }
+
+.simple__wrap {
+  max-width: 550px; }
+
+.simple__setup {
+  margin-top: 125px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.simple__text p {
+  margin: 0; }
+
+.simple__block {
+  margin-right: 145px; }
+  .simple__block:last-child {
+    margin-right: 0; }
+
+.simple__composition {
+  position: relative;
+  padding-left: 10px; }
+
+.simple__count {
+  opacity: 0.15;
+  color: #3b4269;
+  font-size: 150px;
+  font-family: 'ubuntubold', sans-serif;
+  position: relative;
+  left: -40px; }
+
+.simple__image {
+  width: 50px;
+  position: absolute;
+  top: 0;
+  left: 10px; }
+
+.simple__link {
+  display: block;
+  margin-left: 10px;
+  margin-top: 10px;
+  text-decoration: underline;
+  color: #2cd3b8;
+  font-size: 18px; }
+
+@media (max-width: 768px) {
+  .simple__text p {
+    font-size: 26px; }
+  .simple__block {
+    margin-right: 80px; } }
+
+@media (max-width: 576px) {
+  .simple__text p {
+    font-size: 18px; } }
