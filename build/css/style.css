@@ -2945,7 +2945,7 @@ body {
   line-height: 24px; }
 
 .section {
-  padding: 80px 0; }
+  padding: 70px 0; }
   .section__title {
     font-size: 30px;
     text-align: left;
@@ -2986,7 +2986,7 @@ header, footer, section {
   position: relative;
   outline: none;
   background-color: #2cd3b8;
-  padding: 19px;
+  padding: 18px;
   min-width: 255px;
   color: #fff;
   font-size: 14px;
@@ -2998,7 +2998,7 @@ header, footer, section {
   background-color: transparent;
   border: 1px solid #3b4269;
   color: #3b4269;
-  padding: 18px; }
+  padding: 17px; }
 
 .bg-color {
   background-color: #eff4f4; }
@@ -3208,7 +3208,7 @@ header, footer, section {
 .try__title {
   font-size: 36px;
   letter-spacing: 0.9px;
-  margin-top: 45px;
+  margin-top: 0;
   line-height: 50px; }
 
 .try__text {
@@ -3335,3 +3335,65 @@ header, footer, section {
 @media (max-width: 768px) {
   .dashboard .listing__title {
     line-height: 50px; } }
+
+.steps__subtitle {
+  display: block;
+  margin-bottom: 65px; }
+
+.steps__list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 30px; }
+  .steps__list-item:last-child {
+    margin-bottom: 0; }
+
+.steps__list-image {
+  display: block;
+  width: 75px;
+  margin-right: 35px; }
+
+.steps__list-text {
+  color: #3b4269;
+  font-size: 18px; }
+  .steps__list-text b {
+    font-size: 24px; }
+
+.steps__buttons {
+  margin-top: 75px; }
+  .steps__buttons .button {
+    margin-right: 20px; }
+    .steps__buttons .button:last-child {
+      margin: 0; }
+  .steps__buttons .button-secondary {
+    background-color: #3b4269;
+    color: #ffffff; }
+
+@media (max-width: 768px) {
+  .steps__subtitle {
+    font-size: 24px;
+    line-height: 30px; }
+  .steps__list-text {
+    font-size: 24px; }
+  .steps__list-image {
+    width: 100px;
+    margin-right: 45px; }
+  .steps__list-item {
+    margin-bottom: 40px; }
+  .steps__buttons .button {
+    width: 100%;
+    margin-bottom: 32px; } }
+
+@media (max-width: 576px) {
+  .steps__subtitle {
+    font-size: 18px; }
+  .steps__list-text {
+    font-size: 18px; }
+    .steps__list-text b {
+      font-size: 22px; }
+  .steps__list-image {
+    width: 60px;
+    margin-right: 25px; } }
