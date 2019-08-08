@@ -3,5 +3,6 @@ $(function() {
 		$(this).toggleClass('is-active');
 		$('.navbar__composition').toggleClass('navbar__menu--active')
 	});
+	new WOW().init();
 });
 
