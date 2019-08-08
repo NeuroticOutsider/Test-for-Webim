@@ -3397,3 +3397,51 @@ header, footer, section {
   .steps__list-image {
     width: 60px;
     margin-right: 25px; } }
+
+.socials__title {
+  font-size: 18px;
+  color: #3b4269;
+  left: 24px;
+  font-family: 'ubuntu', sans-serif;
+  font-weight: 400;
+  max-width: 650px;
+  margin-bottom: 75px; }
+
+.socials__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .socials__list-item {
+    -ms-flex-preferred-size: 33.33%;
+    flex-basis: 33.33%;
+    margin-bottom: 45px; }
+    .socials__list-item:last-child {
+      margin-bottom: 0; }
+
+.socials__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 320px; }
+  .socials__link img {
+    width: 40px;
+    display: block;
+    margin-right: 30px; }
+  .socials__link span {
+    text-decoration: underline;
+    color: #0da088; }
+
+@media (max-width: 991px) {
+  .socials__list-item {
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%; } }
+
+@media (max-width: 768px) {
+  .socials__list-item {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%; } }
